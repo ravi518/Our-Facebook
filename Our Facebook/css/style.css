@@ -1,0 +1,99 @@
+*{
+	margin: 0%;
+	padding: 0%;
+}
+
+
+
+
+.content{
+	
+	margin-top:150px;
+	margin-left:200px;
+	margin-bottom: 150px;
+	width:40%;
+    float:left;
+ 
+
+}
+h1{
+    font-size:60px;
+
+}
+h2{
+    font-size:28px;
+    font-family:Arial ;
+    font-weight:normal;
+    line-height: 32px;
+   
+}
+
+.container{
+    
+    width:395px;
+    height:340px;
+    background-color: white;
+    float: right;
+    margin-right: 250px;
+    margin-top: 115px;
+    border-radius: 12px;       <!--it tells how curvical the box would be-->
+
+}
+.form{
+    text-align: center;
+    
+   }
+
+.form input{
+    padding: 16px;
+    margin-top:15px; 
+    width: 82%;
+    border-radius: 12px;
+     font-size: 15px;
+    
+}
+.form input:hover{
+     border-color: blue;
+}
+button{
+    background-color: blue;
+    margin-top: 15px;
+    width: 92%;
+    border-radius: 12px;
+    padding: 14px;
+    font-size: 20px;
+    color: white;
+
+}
+p{
+  margin-top:15px;   
+}
+.btn{
+ margin-top:15px;  
+ padding: 15px;
+ text-align: center;
+ background-color: limegreen;
+ margin-left:70px;
+ margin-right: 70px;
+ color:white;
+ border-radius: 16px;
+}
+a{
+    
+   
+    text-decoration: none;         <!--remove underline from the anchor tab-->
+    color:blue;
+    cursor: pointer;
+}
+a:hover{
+      cursor: pointer;
+      color: red;
+}
+button:hover{
+      cursor: pointer;
+      color: red;
+}
+body{
+     background-color: honeydew;
+
+}
